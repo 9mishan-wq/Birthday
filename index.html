@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>24 Birthday Surprises!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 Happy Birthday! Pick a Gift 🎉</h1>
+  <div id="cooldown-banner" class="hidden"></div>
+  <div class="grid" id="gift-grid"></div>
+
+  <!-- Modal for revealing the gift -->
+  <div id="gift-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="gift-title"></h2>
+      <p id="gift-body"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
