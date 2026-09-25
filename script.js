@@ -3,7 +3,7 @@
 // -------------------------------------------------------------
 // Set his birthday start time (Year, Month [0-11], Day, Hour, Min)
 // Note: November is Month 10 in JS (0 = Jan, 10 = Nov)
-const START_DATE = new Date(2026, 10, 25, 0, 0, 0); // Nov 25, 12:00 AM
+const START_DATE = new Date(2026, 09, 25, 0, 0, 0); // Nov 25, 12:00 AM
 
 const TOTAL_GIFTS = 24;
 
